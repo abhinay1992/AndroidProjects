@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/browserBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Open a browser"
+        android:layout_marginTop="15dp"
+        android:onClick="doBrowser"/>
+
+    <Button
+        android:id="@+id/dialPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dial Phone"
+        android:layout_below="@+id/browserBtn"
+        android:layout_marginTop="15dp"
+        android:onClick="doPhone"/>
+
+    <Button
+        android:id="@+id/takeAPic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dialPhone"
+        android:text="Take A Picture"
+        android:layout_marginTop="15dp"
+        android:onClick="doPic"/>
+
+    <ImageView
+        android:id="@+id/imgView"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/takeAPic"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="40dp"
+        tools:srcCompat="@tools:sample/avatars[3]" />
+
+
+</RelativeLayout>

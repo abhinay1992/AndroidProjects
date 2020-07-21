@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".SplashScreen">
+
+    <ImageView
+        android:id="@+id/niuLogo"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:src="@drawable/niulogo"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"/>
+
+    <TextView
+        android:id="@+id/quizCourse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/niuLogo"
+        android:text="CSCI 240\nQuiz"
+        android:textAlignment="center"
+        android:textSize="50dp"
+        android:textColor="#000000"
+        android:textStyle="italic"/>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/quizCourse"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        />
+
+</RelativeLayout>

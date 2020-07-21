@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Database Menus</string>
+    <string name="action_settings">Settings</string>
+    <string name="addString" />
+    <string name="deleteString" />
+    <string name="action_update">update</string>
+</resources>

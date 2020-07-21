@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@drawable/background">
+
+    <ImageView
+        android:id="@+id/topBun"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/topbun"
+        android:layout_marginTop="40dp"
+        android:contentDescription="@string/contentString"/>
+
+    <RadioGroup
+        android:id="@+id/radioBtnGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+        <RadioButton
+            android:id="@+id/beefPattyRadioBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/beefLabel"
+            android:textSize="20dp" />
+        <RadioButton
+            android:id="@+id/turkeyPattyRadioBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/turkeyLabel"
+            android:textSize="20dp" />
+        <RadioButton
+            android:id="@+id/veggiePattyRadioBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/veggieLabel"
+            android:textSize="20dp" />
+    </RadioGroup>
+
+    <android.support.v7.widget.AppCompatCheckBox
+        android:id="@+id/baconCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/baconLabel"
+        android:textSize="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"/>
+
+    <RadioGroup
+        android:id="@+id/cheeseRadioBtnGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/noCheese"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/noCheeseLabel"
+            android:textSize="20dp"
+            android:checked="true"/>
+        <RadioButton
+            android:id="@+id/cheddarCheese"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cheddarLabel"
+            android:textSize="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp
+"/>
+        <RadioButton
+            android:id="@+id/mozzarellaCheese"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="@string/mozzLabel"/>
+    </RadioGroup>
+    
+    <TextView
+        android:id="@+id/sauceLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sauceLabel"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:textSize="15dp"/>
+    
+    <android.support.v7.widget.AppCompatSeekBar
+        android:id="@+id/sauceSeekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"/>
+
+    <ImageView
+        android:id="@+id/bottomBun"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bottombun"
+        android:layout_marginTop="15dp"
+        android:contentDescription="@string/contentString"/>
+
+    <TextView
+        android:id="@+id/calorieLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/calorieLabel"
+        android:layout_gravity="center"
+        android:textSize="40dp"/>
+
+</LinearLayout>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Quadratic Calculator</string>
+    <string name="value_label">Enter the values</string>
+    <string name="a_value">Value of a :</string>
+    <string name="b_value">Value of b :</string>
+    <string name="c_value">Value of c :</string>
+    <string name="calcBtn_label">Calculate X Values</string>
+    <string name="xlabel">Values of X</string>
+    <string name="img_label">*img - Imaginary Values</string>
+    <string name="clrBtn">CLEAR</string>
+    <string name="hint">0</string>
+</resources>

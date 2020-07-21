@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Area of Given Shapes</string>
+    <string name="titleString">Find the Area of:</string>
+    <string name="triangleString">Triangle</string>
+    <string name="circleString">Circle</string>
+    <string name="ellipseString">Ellipse</string>
+    <string name="calculateString">Calculate the Area</string>
+    <string name="hintString">The calculated area will display here</string>
+    <string name="circleRadius">Radius : </string>
+    <string name="triBase">Base : </string>
+    <string name="triHeight">Height : </string>
+    <string name="semiMajor">Length of Semi-Major axis : </string>
+    <string name="semiMinor">Length of Semi-Minor axis : </string>
+</resources>
